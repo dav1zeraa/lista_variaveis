@@ -1,0 +1,7 @@
+preco=0
+dias=int(input())
+kms=float(input())
+preco+=dias*90
+if kms>100:
+    preco+=(kms-100)*12
+print(f"Preço final: R${preco}")
