@@ -1,0 +1,5 @@
+v=int(input())
+if v>500:
+    print("Há imposto!")
+    print(f"valor com imposto: {1.5*v}")
+else: print("Não há imposto!")
