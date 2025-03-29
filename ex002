@@ -1,0 +1,5 @@
+n=int(input())
+print(f"Minutos: {n/60}")
+print(f"Horas: {n/3600}")
+print(f"Dias: {n/86400}")
+
