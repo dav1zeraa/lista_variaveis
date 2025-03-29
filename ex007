@@ -1,0 +1,2 @@
+n=int(input("Digite um número ímpar: "))
+print(((n-1)**2)-(n+2))
