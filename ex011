@@ -1,0 +1,5 @@
+login=input()
+senha=input()
+if login==senha:
+    print("ERRO!! \nlogin igual a senha!")
+else: print("tudo certo")
