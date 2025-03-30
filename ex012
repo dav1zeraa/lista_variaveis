@@ -1,0 +1,6 @@
+qtd_turmas=int(input())
+qtd_alunos=int(input())
+if(qtd_alunos/qtd_turmas>40){
+    print("Turma com mais de 40 alunos!")
+}
+else: print("tudo certo!")
